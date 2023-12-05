@@ -15,8 +15,10 @@ body {
     flex-flow: column;
     height: 100%;
     width: 800px;
-    text-align: center;
     border-radius: 15px 50px;
+    overflow: auto;
+    text-align: center;
+    padding: 10px;
 }
 
 .main-content .box.header {
@@ -38,4 +40,22 @@ body {
 .title {
     text-align: center;
     padding: 10px;
+}
+
+.back-btn {
+    background-color: #EE7214;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border-radius:25px;
+}
+
+.ing-list,
+.dir-list {
+    text-align: justify;
 }
